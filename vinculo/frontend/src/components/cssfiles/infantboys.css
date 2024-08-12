@@ -1,0 +1,260 @@
+
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Styles */
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px);
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    height: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px);
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 35px;
+    margin: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.137);
+    width: 275px;
+    color: #eaecec;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img {
+    max-width: 100%;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-family: fantasy;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product h6 {
+    font-family: serif;
+}
+
+.btn {
+    color: #fff;
+    border: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.carousel {
+    height: 550px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.catagories-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .circle-container {
+        flex-wrap: wrap;
+    }
+
+    .circle {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        height: 200px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .carousel {
+        height: 300px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 425px) {
+    .product {
+        padding: 10px;
+        width: 118px;
+        height: auto;
+        margin: 20px;
+    }
+
+    .product img {
+        max-width: 100%;
+        height: 200px;
+        border-radius: 2px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .product {
+      background-color: rgba(255, 255, 255, 0.1); 
+      backdrop-filter: blur(10px);
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 45px;
+        margin: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.918);
+        width: 400px;
+        color: #eaecec;
+    }
+}
+
+/* Combo Container */
+.combo-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    flex-wrap: nowrap; /* Prevent wrapping of items */
+    justify-content: flex-start; /* Start from the beginning */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px; /* Add some bottom padding for space */
+}
+
+/* Combo Card */
+.combo-card {
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 90px;
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.747);
+    width: 275px;
+    color: #333333;
+    transition: transform 0.3s ease-in-out;
+    display: flex; /* Add flex container */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center-align items horizontally */
+    margin: 20px;
+    height: 500px;
+}
+
+.combo-card img {
+    max-width: 200%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.combo-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.combo-details h3 {
+    margin-top: 10px;
+    font-family: fantasy;
+}
+
+.combo-details h6 {
+    font-family: serif;
+}
+
+.combo-details p {
+    margin: 10px 0;
+}
+
+.combo-card:hover {
+    transform: translateY(-5px);
+}
+
+.offer-details {
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.offer-details h2 {
+    color: #333;
+}
+
+.offer-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offer-details li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Advertisement */
+.advertisement {
+    background-color: #FFFF00;
+    color: #000;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}

@@ -1,0 +1,122 @@
+
+/* header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #102C57;
+   padding: 20px;
+
+    padding: 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+
+    .dropdown-menu {
+         list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: #ffffff;
+         font-weight: 400px;
+        transition: color 0.3s ease;
+    }
+
+    .nav-item a:hover {
+        font-weight: 400;
+        transition: color 0.3s ease;
+    }
+
+    .nav-item a:hover {
+         color: #fabd10;
+    }
+
+    .search-bar input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+        width: 300px;
+    }
+
+    .search-bar button {
+        background-color: #fabd10;
+        color: #102C57;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+
+        top: calc(100% + 5px);
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .dropdown-toggle:hover+.dropdown-menu,
+    .dropdown-menu:hover {
+        display: block;
+    }
+
+    .dropdown-item a {
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    .dropdown-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        transition: color 0.3s ease;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    .icons {
+        display: flex;
+    }
+
+    .icon {
+        margin-right: 20px;
+    }
+
+    .icon:last-child {
+        margin-right: 0;
+    }
+
+    .icon a {
+        color: #f0f0f0;
+    }
+
+    .icon.dropdown .dropdown-menu li a {
+        color: #102C57;
+    }
+
+    .icon.dropdown .dropdown-menu li a:hover {
+        color: #fabd10;
+    }

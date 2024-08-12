@@ -1,0 +1,106 @@
+.order-confirmation-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(87, 85, 85, 0.171);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.confirmation-header img {
+  max-width: 100%;
+  height: auto; /* Ensures aspect ratio is maintained */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-header h2 {
+  margin-top: 20px; /* Add margin to separate the GIF and text */
+  font-size: 36px; /* Increase font size */
+  font-weight:normal; /* Make text bold */
+  color: black; /* Change text color */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add letter spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add text shadow */
+}
+
+.order-summary,
+.order-details,
+.recommended-products,
+.additional-options,
+.customer-support {
+  margin-top: 20px;
+}
+
+.order-summary ul,
+.recommended-products ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li,
+.recommended-products li {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.order-summary li img,
+.recommended-products li img {
+  max-width: 80px;
+  max-height: 80px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.order-details ul {
+  padding-left: 20px;
+}
+
+.button-row {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.additional-options a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.additional-options a:hover {
+  text-decoration: underline;
+}
+
+.customer-support {
+  margin-top: 40px;
+}
+
+.customer-support p {
+  margin-bottom: 10px;
+}

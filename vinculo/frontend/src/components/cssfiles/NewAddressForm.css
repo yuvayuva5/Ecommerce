@@ -1,0 +1,43 @@
+.address-form-container, .new-address-form-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .address-form-container h2, .new-address-form-container h2 {
+    text-align: center;
+  }
+  
+  .new-address-btn, .location-btn, .save-btn, .cancel-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .new-address-btn, .save-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .location-btn, .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .address-form label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .address-form input[type="text"], .address-form input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  

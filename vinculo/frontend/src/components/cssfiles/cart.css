@@ -1,0 +1,177 @@
+.cart-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+.cart-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.cart-item {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.product-details {
+  flex-grow: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.quantity label {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.buttons button {
+  margin-right: 10px;
+  background-color: #102c57;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.total {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.total button {
+  background-color: #102c57;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.total button:hover {
+  background-color: #0056b3;
+}
+
+.empty-cart-message {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+.buy-later-section {
+  margin-top: 40px;
+}
+
+.buy-later-item {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.buy-later-item .item-info {
+  display: flex;
+  align-items: center;
+}
+
+.buy-later-item .product-image img {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.order-summary {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.order-summary p {
+  font-size: 16px;
+  color: black;
+}
+
+.delivery-time p,
+.return-policy p,
+.customer-support p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: black;
+}
+
+.discount-coupon button {
+  margin-right: 10px;
+  background-color: #102c57;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.discount-coupon button:hover {
+  background-color: #0056b3;
+}
+
+.buy-now {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buy-now button {
+  padding: 10px 20px;
+  background-color: #102c57;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-now button:hover {
+  background-color: #0056b3;
+}

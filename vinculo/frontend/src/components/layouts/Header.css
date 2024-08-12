@@ -1,0 +1,41 @@
+/* Hide elements in mobile view */
+@media (max-width: 768px) {
+    .desktop-navbar{
+        display: none;
+    }
+
+    .navbar{
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .mobile-navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin:  0%;
+    }
+
+    .logo{
+        width: 50px;
+    }
+  }
+  
+@media (min-width:768px) {
+    .navbar{
+        padding: 0;
+    }
+
+    .mobile-navbar{
+        display: none;
+    }
+
+    .desktop-navbar{
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        align-items:center;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+}

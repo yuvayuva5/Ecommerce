@@ -1,0 +1,56 @@
+.mobile-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: #2a292b;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-footer a {
+  text-decoration: none;
+}
+
+.mobile-footer .icon {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top: 2px solid transparent; /* Add transparent border */
+  transition: border-color 0.3s ease; /* Add transition for border color change */
+  color: black; /* Set icon color to black */
+}
+
+.mobile-footer .icon:hover {
+  border-color: rgb(48, 48, 71); /* Change border color on hover */
+}
+
+.mobile-footer .icon.home {
+  background-image: url('/src/vinculo/footer\ images/home.svg');
+}
+
+.mobile-footer .icon.cart {
+  background-image: url('/src/vinculo/footer\ images/cart.svg');
+}
+
+.mobile-footer .icon.order {
+  background-image: url('/src/vinculo/footer\ images/order.svg');
+}
+
+.mobile-footer .icon.account {
+  background-image: url('/src/vinculo/footer\ images/account.svg');
+}
+
+.mobile-footer .icon.categories {
+  background-image: url('/src/vinculo/footer\ images/category.svg');
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-footer {
+    display: none;
+  }
+}

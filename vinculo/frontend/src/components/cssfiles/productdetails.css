@@ -1,0 +1,148 @@
+/* productdetails.css */
+
+.product-details {
+  display: flex;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.product-image-container {
+  width: 50%;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5px;
+  padding-left: 120px;
+  padding-top: 120px;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.color-box.blue {
+  background-color: blue;
+}
+
+.color-box.red {
+  background-color: red;
+}
+
+.color-box.green {
+  background-color: green;
+}
+
+.color-box.black {
+  background-color: black;
+}
+
+.color-box.active {
+  border: 2px solid blue;
+}
+
+.size {
+  display: inline-block;
+  padding: 5px 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.size.active {
+  border: 2px solid blue;
+}
+
+.price-ratings {
+  justify-content: space-between;
+}
+
+.product-details .details,.price-ratings,.deliver-address {
+  padding: 20px;
+}
+.price {
+  flex: 0 0 60%;
+}
+
+.ratings {
+  flex: 0 0 30%;
+}
+
+.details,
+.deliver-address {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+.accordion-content.active {
+  display: block;
+}
+
+.accordion-icon.active {
+  transform: rotate(180deg);
+}
+
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.apply-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: darkblue;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+  }
+
+  .product-image-container {
+    width: 100%;
+    order: -1; /* Placing the image carousel at the top */
+    margin-bottom: 20px;
+  }
+  .product-image{
+    padding-right: 80px;
+    width: 100%;
+    
+  }
+}

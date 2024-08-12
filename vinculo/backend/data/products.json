@@ -1,0 +1,114 @@
+[
+  {
+    "name": "BAESD",
+    "price": 245.67,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/boy4.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "name": "United Colors of Benetton",
+    "price": 150.32,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 3.5,
+    "images": [
+      {
+        "image": "/images/products/boy3.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Flipkart",
+    "stock": 9,
+    "numOfReviews": 5,
+    "reviews": []
+  },
+  {
+    "name": "Googo Gaaga",
+    "price": 440.57,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 2,
+    "images": [
+      {
+        "image": "/images/products/boy2.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Ebay",
+    "stock": 9,
+    "numOfReviews": 12,
+    "reviews": []
+  },
+  {
+    "name": "BONKIDS",
+    "price": 250.45,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 4,
+    "images": [
+      {
+        "image": "/images/products/boy1.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Ebay",
+    "stock": 9,
+    "numOfReviews": 12,
+    "reviews": []
+  },
+  {
+    "name": "Monte Carlo",
+    "price": 767.32,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 5,
+    "images": [
+      {
+        "image": "/images/products/boy3.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Ebay",
+    "stock": 9,
+    "numOfReviews": 12,
+    "reviews": []
+  },
+  {
+    "name": "BONKIDS",
+    "price": 15.46,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 5,
+    "images": [
+      {
+        "image": "/images/products/boy4.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Amazon",
+    "stock": 4,
+    "numOfReviews": 20,
+    "reviews": []
+  },
+  {
+    "name": "Monte Carlo",
+    "price": 10.12,
+    "description": "Kids Round Neck Bio Finish Pure Cotton T-shirt",
+    "ratings": 3,
+    "images": [
+      {
+        "image": "/images/products/boy2.jpg"
+      }
+    ],
+    "category": "Boys",
+    "seller": "Ebay",
+    "stock": 6,
+    "numOfReviews": 9,
+    "reviews": []
+  }
+]

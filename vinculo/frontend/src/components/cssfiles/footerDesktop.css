@@ -1,0 +1,171 @@
+.footer {
+  background-color:white !important;
+  color: #2a292b;
+  padding: 20px 20px;
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-about {
+  flex: 1 1 45%;
+}
+
+.footer-about h3,
+.footer-contact h2 {
+  text-decoration: underline;
+  color: #2a292b;
+}
+
+.footer-about .about-us {
+  margin-bottom: 20px;
+}
+
+.footer-about p{
+  color: #2a292b;
+}
+
+.footer-links {
+  flex: 1 1 45%;
+}
+
+.footer-links h3 {
+  text-decoration: underline;
+  color: #2a292b;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-columns {
+  display: flex;
+}
+
+.company-column {
+  flex: 1;
+}
+
+.company-column ul li {
+  margin-bottom: 10px;
+}
+
+.company-column ul li a {
+  color:#2a292b;
+  text-decoration: none;
+}
+
+.footer-contact {
+  margin-top: 20px;
+  color: #2a292b;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  color: #2a292b;
+}
+
+.footer-contact .footer-social {
+  display: flex;
+}
+
+.footer-contact .footer-social a {
+  margin-right: 10px;
+  color: #2a292b;
+  font-size: 30px;
+}
+
+.footer-social {
+  color: #2a292b;
+}
+
+.secure-payment-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.secure-payment-text,
+.payment-icons,
+.copyright p {
+  text-align: center;
+  color: #2a292b;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
+
+.payment-icons img {
+  width: 50px;
+  margin: 0 10px;
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 700px) {
+  .footer-toggle {
+    flex: 1 1 100%;
+  }
+
+  .footer-about,
+  .footer-links,
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-toggle h3 {
+    text-align: center;
+  }
+
+  .footer-toggle {
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .footer-contact {
+    margin-top: 20px;
+  }
+
+  .footer-contact p {
+    margin: 5px 0;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-social a {
+    margin-right: 10px;
+    color: #2a292b;
+    font-size: 30px;
+  }
+
+  .payment-icons {
+    margin-top: 20px;
+  }
+
+  .payment-icons img {
+    margin: 0 5px;
+  }
+}
