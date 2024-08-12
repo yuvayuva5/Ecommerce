@@ -22,11 +22,11 @@ export default function NewProduct() {
     const { loading, isProductCreated, error } = useSelector(state => state.productState);
 
     const categories = [
-        'Boys', 'Girls', 'Infants', 'Accessories', 'Headphones', 'Food', 'Books', 'Clothes/Shoes', 'Beauty/Health', 'Sports', 'Outdoor', 'Home',
+        'Boys', 'Girls', 'Infants',
     ];
 
     const sizeOptions = [
-        'S', 'M', 'L', 'XL', 'XXL'
+        '6-12 M','12-18 M','18-24 M','2-3 Y','3-4 Y','5-6 Y','7-8 Y','8-9 Y','9-10 Y','11-12 Y','13-14 Y','15-16 Y','S', 'M', 'L', 'XL', 'XXL'
     ];
 
     const navigate = useNavigate();

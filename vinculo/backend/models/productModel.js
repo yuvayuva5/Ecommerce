@@ -36,15 +36,7 @@ const productSchema = new mongoose.Schema({
                 'Boys',
                 'Girls',
                 'Infants',
-                'Accessories',
-                'Headphones',
-                'Food',
-                'Books',
-                'Clothes/Shoes',
-                'Beauty/Health',
-                'Sports',
-                'Outdoor',
-                'Home'
+
             ],
             message : "Please select correct category"
         }

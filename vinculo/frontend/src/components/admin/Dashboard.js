@@ -42,13 +42,13 @@ export default function Dashboard () {
             <div className="col-12 col-md-2">
                     <Sidebar/>
             </div>
-            <div className="col-12 col-md-10">
+            <div className="col-12 col-md-10 ">
                 <h1 className="my-4">Dashboard</h1>
                 <div className="row pr-4">
                     <div className="col-xl-12 col-sm-12 mb-3">
                         <div className="card text-white bg-primary o-hidden h-100">
                             <div className="card-body">
-                                <div className="text-center card-font-size">Total Amount<br /> <b>${totalAmount}</b>
+                                <div className="text-center card-font-size">Total Amount<br /> <b>₹{totalAmount}</b>
                                 </div>
                             </div>
                         </div>

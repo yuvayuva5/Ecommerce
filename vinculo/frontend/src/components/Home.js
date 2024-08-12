@@ -45,14 +45,14 @@ export default function Home() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 caro-image"
-                                src="images/caro2.png"
+                                src="images/caro2.jpg"
                                 alt="Second slide" 
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 caro-image"
-                                src="images/caro3.png"
+                                src="images/caro3.jpg"
                                 alt="Third slide"
                             />
                         </Carousel.Item>

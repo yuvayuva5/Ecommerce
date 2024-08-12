@@ -59,8 +59,8 @@ export default function ProductSearch() {
                                         range={true}
                                         marks={
                                             {
-                                                1: "$1",
-                                                1000: "$1000"
+                                                1: "₹1",
+                                                1000: "₹1000"
                                             }
                                         }
                                         min={1}
@@ -103,9 +103,10 @@ export default function ProductSearch() {
 
                                     </ul>
                                 </div>
+                                
                                 <hr className="my-5" />
                                 {/* Ratings Filter */}
-                                <div className="mt-5">
+                                {/* <div className="mt-5">
                                     <h4 className="mb-3">Ratings</h4>
                                     <ul className="pl-0">
                                         {[5, 4, 3, 2, 1].map(star =>
@@ -134,7 +135,7 @@ export default function ProductSearch() {
                                         )}
 
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-6 col-md-9">
                                 <div className="row">
