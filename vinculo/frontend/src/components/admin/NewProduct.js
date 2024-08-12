@@ -22,7 +22,7 @@ export default function NewProduct() {
     const { loading, isProductCreated, error } = useSelector(state => state.productState);
 
     const categories = [
-        'Boys', 'Girls', 'Infants', 'Accessories', 'Headphones', 'Food', 'Books', 'Clothes/Shoes', 'Beauty/Health', 'Sports', 'Outdoor', 'Home',
+        'Boys', 'Girls', 'Infants'
     ];
 
     const sizeOptions = [

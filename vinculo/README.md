@@ -1,4 +1,4 @@
-# JVL cart
+# vinculo cart
 
 an E-commerce Website built with MERN stack.
 
@@ -14,11 +14,10 @@ npm install
 npm run build
 ```
 wait for application build
-after that open the backend/config/config.env
-and update the MongoDB connection string
+after that open the backend/config/config.envcart
 ```bash
 ...
-DB_LOCAL_URI=mongodb://localhost:27017/jvlcart
+DB_LOCAL_URI=mongodb://localhost:27017/
 ```
 
 navigate back to "root" folder and run this command for loading demo data
