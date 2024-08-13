@@ -236,6 +236,7 @@ nav {
   #products_heading {
     font-size: 15px;
     font-family: 'Cinzel', sans-serif;
+    margin-top: 0;
   }
 }
 
@@ -854,7 +855,7 @@ ul.CTAs a {
   }
 
   .card {
-    padding: 1rem;
+    padding: 0;
     width: 120%;
   }
 
@@ -1001,5 +1002,50 @@ margin: 0px;
   width: 100%;
   margin-left: 0px;
 }
+.form-image {
+  width: 100px;
+  height: auto;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+}
