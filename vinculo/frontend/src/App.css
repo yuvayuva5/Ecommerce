@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 html,
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
@@ -993,4 +999,7 @@ margin: 0px;
 .navbar{
   padding: 0;
   width: 100%;
+  margin-left: 0px;
 }
+
+

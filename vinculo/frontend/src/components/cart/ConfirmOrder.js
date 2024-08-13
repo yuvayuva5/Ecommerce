@@ -61,7 +61,7 @@ export default function ConfirmOrder() {
                                     </div>
 
                                     <div className="col-12 col-lg-4 d-flex align-items-center justify-content-end mt-2 mt-lg-0">
-                                        <p className="mb-0">{item.quantity} x ${item.price} = <b>${item.quantity * item.price}</b></p>
+                                        <p className="mb-0">{item.quantity} x ₹{item.price} = <b>₹{item.quantity * item.price}</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -74,11 +74,11 @@ export default function ConfirmOrder() {
                     <div id="order_summary">
                         <h4>Order Summary</h4>
                         <hr />
-                        <p>Subtotal:  <span className="order-summary-values">${itemsPrice}</span></p>
-                        <p>Shipping: <span className="order-summary-values">${shippingPrice}</span></p>
-                        <p>Tax:  <span className="order-summary-values">${taxPrice}</span></p>
+                        <p>Subtotal:  <span className="order-summary-values">₹{itemsPrice}</span></p>
+                        <p>Shipping: <span className="order-summary-values">₹{shippingPrice}</span></p>
+                        <p>Tax:  <span className="order-summary-values">₹{taxPrice}</span></p>
                         <hr />
-                        <p>Total: <span className="order-summary-values">${totalPrice}</span></p>
+                        <p>Total: <span className="order-summary-values">₹{totalPrice}</span></p>
                         <hr />
                         <button id="checkout_btn" onClick={processPayment} className="btn btn-primary btn-block">Proceed to Payment</button>
                     </div>
@@ -86,4 +86,4 @@ export default function ConfirmOrder() {
             </div>
         </Fragment>
     )
-}
+}   
